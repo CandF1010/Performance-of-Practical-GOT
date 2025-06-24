@@ -13,4 +13,4 @@ This repository contains code related to performance testing and benchmarking of
     *   **Access Structure Input Length:**
         Within `test_large_circuit2.rs`, the length of the input for the access structure function `F` has been set to **1000**. This value represents the number of elements that need to be committed in the Pedersen vector commitment.
     *   **Arithmetic Circuit Multiplier Count:**
-        The number of multiplications in the arithmetic circuit is tested across a range from **2^10 to 2^20**. This range allows for comprehensive evaluation of `legogro16`'s performance scaling with increasing circuit complexity.
+        The number of multiplications in the arithmetic circuit is tested across a range from **2^10 to 2^20**. This range allows for comprehensive evaluation of legogro16's performance scaling with increasing circuit complexity.
