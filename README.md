@@ -6,7 +6,7 @@ This repository contains code related to performance testing and benchmarking of
 ## Project Structure and Key Components
 
 *   **Scalar Multiplication Test Code (BLS12-377)**
-    The code for testing the scalar multiplication on the BLS12-377 elliptic curve is located in the [`ecc_exp_test`](https://github.com/CandF1010/Performance-of-Practical-GOT/tree/main/ecc_exp_test) directory. This section focuses on evaluating the efficiency and correctness of scalar multiplication operations for the BLS12-377 curve.
+    The code for testing the scalar multiplication on the BLS12-377 elliptic curve is located in the [`ecc_exp_test`](https://github.com/CandF1010/Performance-of-Practical-GOT/tree/main/ecc_exp_test) directory. This section focuses on evaluating the efficiency of scalar multiplication operations for the BLS12-377 curve.
 
 *   **legogro16 Benchmark Code**
     Benchmarking code for the legogro16 system can be found at [`legogro16/tests/test_large_circuit2.rs`](https://github.com/CandF1010/Performance-of-Practical-GOT/blob/main/legogro16/tests/test_large_circuit2.rs). This benchmark specifically focuses on the performance of large arithmetic circuits.
