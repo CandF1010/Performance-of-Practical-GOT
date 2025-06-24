@@ -1,0 +1,15 @@
+[package]
+name = "bn128_scalar_mul_benchmark"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ark-ff = { version = "0.5.0", default-features = false, features = ["parallel"] }
+ark-ec = { version = "0.5.0", default-features = false, features = ["parallel"] }
+ark-bls12-377 = { version = "0.5.0", default-features = false, features = ["curve"] }
+# 保持 ark-std 的 std 特性，以防其他 arkworks 库需要它
+ark-std = { version = "0.5.0", default-features = false, features = ["std"] }
+
+# 新增：直接添加 rand 依赖，明确启用 std_rng 特性
+# 注意：确保这里使用的 rand 版本与 ark-std 内部使用的版本兼容（通常是相同的主版本号，例如 0.8.x）
+rand = { version = "0.8", features = ["std_rng"] }
